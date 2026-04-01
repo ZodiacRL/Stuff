@@ -1555,7 +1555,7 @@ body {
         .mentionsBar__7aaec /* new mention pill */,
         .mention__3b95d /* server list new mention pill */,
         .badge_c99c29 /* inbox badge */ {
-        background-color: var(--accent-new);
+        background-color: rgb(203, 60, 65);
     }
 
     .newMessagesBar__0f481 /* unread bar */ {
@@ -1729,7 +1729,6 @@ body {
     --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
     --dms-background-image-url: url(''); /* url of the background image */
     --dms-background-image-size: cover; /* size of the background image (css background-size property) */
-    --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
 }
 
 @property --custom-dms-icon {
