@@ -842,10 +842,10 @@ body {
         --background-surface-highest: var(--bg-3);
         /* --background-tile-gradient-pink-end: yellow;
         --background-tile-gradient-pink-start: lime; */
-        --badge-background-default: var(--accent-2);
-        --badge-expressive-background-default: var(--accent-2);
-        --badge-expressive-text-default: var(--text-0);
-        --badge-notification-background: var(--accent-new);
+        --badge-background-default: rgb(203, 60, 65);
+        --badge-expressive-background-default: rgb(203, 60, 65);
+        --badge-expressive-text-default: var(--white-500);
+        --badge-notification-background: rgb(203, 60, 65);
         --badge-text-default: var(--white-500);
         --bg-surface-overlay-tmp: var(--bg-3);
         --bg-surface-raised: var(--bg-3);
@@ -1277,18 +1277,14 @@ body {
         --user-profile-overlay-background-hover: var(--hover);
         --user-profile-toolbar-background: var(--bg-3);
         --user-profile-toolbar-border: var(--border);
-
         --white: var(--text-0);
         --white-500: var(--text-0);
-
         --brand-260: var(--accent-2);
         --brand-360: var(--accent-2);
         --brand-500: var(--accent-2);
         --blurple-50: var(--accent-2);
-
         --red-400: var(--red-2);
         --red-500: var(--red-3);
-
         --green-360: var(--green-2); /* seems to be mostly used by vencord plugins */
         --yellow-300: var(--yellow-2); /* voice settings sensitivity bar */
         --primary-400: var(--text-4);
@@ -1321,7 +1317,7 @@ body {
     }
 
     .panel__5dec7 /* game activity panel */,
-        .container__722ff /* background between vc and vc chat */ {
+    .container__722ff /* background between vc and vc chat */ {
         background: none;
     }
 
@@ -1329,9 +1325,11 @@ body {
     .sidebarRegionScroller__23e6b /* server and channel settings sidebar */ {
         background-color: var(--bg-3);
     }
+
     .side_aa8da2 .item_aa8da2:hover /* settings tab */ {
         background-color: var(--bg-3) !important;
     }
+
     .side_aa8da2 .item_aa8da2:active,
     .side_aa8da2 .item_aa8da2.selected_aa8da2 {
         background-color: var(--bg-2) !important;
@@ -1344,7 +1342,6 @@ body {
     .accountProfileCard_a27e58 /* account settings profile background */ {
         background-color: var(--bg-3);
     }
-
     /* User settings search bar coloring */
     .fixedContent__409aa {
         &::after {
