@@ -844,9 +844,9 @@ body {
         --background-tile-gradient-pink-start: lime; */
         --badge-background-default: rgb(203, 60, 65);
         --badge-expressive-background-default: rgb(203, 60, 65);
-        --badge-expressive-text-default: var(--white-500);
+        --badge-expressive-text-default: rgb(255, 0, 0);
         --badge-notification-background: rgb(203, 60, 65);
-        --badge-text-default: var(--white-500);
+        --badge-text-default: rgb(255, 0, 0);
         --bg-surface-overlay-tmp: var(--bg-3);
         --bg-surface-raised: var(--bg-3);
         --border-feedback-critical: var(--border);
